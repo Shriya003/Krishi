@@ -1,0 +1,41 @@
+.register{
+    height: 80vh;
+    width: 80vh;
+    display:flex;
+    flex-direction:column;
+    background-color: beige;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0 0 15px 5px grey;
+    border-radius: 20px;
+}
+.registerhead{
+    height: 100vh;
+    width: 300vh;
+    display:flex;
+    flex-direction:column;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0 0 15px 5px grey;
+    
+}
+.register button{
+    background: rgb(38, 96, 221);
+    font-size: 20px;
+    height: 8%;
+    width:90%;
+    color: white;
+    padding: 0.5 rem 0;
+    border-radius: 8px;
+    outline:none;
+    cursor: pointer;
+}
+.register input{
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+}
