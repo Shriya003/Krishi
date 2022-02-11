@@ -4,6 +4,7 @@ const Register = ()=> {
 return(
 <div className="login-box">
   <div className="left">
+      
     <h1>Sign up</h1>
     
     <input type="text" name="username" placeholder="Username" />
