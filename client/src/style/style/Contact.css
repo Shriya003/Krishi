@@ -1,0 +1,193 @@
+.trial {
+  width: 100vw;
+  height: 90vh;
+
+}
+
+.cbody-head {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right top, #bce3c1, #a8cdac, #94b898, #81a384, #6e8e71, #6a8e6d, #658e6a, #618e66, #69a271, #70b67c, #76cb88, #7ce094);
+  font-size: 16px;
+
+  color: #222;
+
+}
+
+
+.clogin-box {
+  display: flex;
+  width: 55%;
+  height: 70vh;
+}
+
+.cleft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(190, 243, 190);
+  width: 35vw;
+  border-radius: 30px 2px 2px 30px;
+
+}
+
+.cleft_p {
+
+
+ margin-bottom: 80px; 
+}
+
+.cright h1 {
+  color: #16a085;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+
+
+.cleft input[type="text"] {
+  display: flex;
+  align-self: flex-start;
+  border: none;
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  resize: none;
+  outline: none;
+  box-sizing: border-box;
+
+  margin-bottom: 5%;
+  margin-left: 5%;
+  padding: 1%;
+  width: 40%;
+  height: 7%;
+  border: none;
+  border-bottom: 1px solid rgb(20, 13, 13);
+  font-weight: 400;
+  font-size: 1rem;
+  transition: 0.2s ease;
+}
+
+.cleft input[type="text"]:focus,
+.cleft input[type="password"]:focus {
+  border-bottom: 2px solid #16a085;
+  color: #000000;
+  transition: 0.2s ease;
+}
+
+.cleft input[type="submit"] {
+
+  margin-top: 2%;
+
+  width: 20%;
+  height: 7%;
+  background: #16a085;
+  border: none;
+  border-radius: 10%;
+  color: #FFF;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.cleft input[type="submit"]:hover,
+.cleft input[type="submit"]:focus {
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgb(255, 255, 255);
+  transition: 0.1s ease;
+}
+
+.cleft input[type="submit"]:active {
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+
+
+.cright {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(26, 96, 26);
+
+  border-radius: 0 30px 30px 0;
+}
+.crightinfo{
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+
+
+
+}
+
+.cright-box {
+
+  font-size: 3rem;
+  color: #16a085;
+
+}
+
+
+
+.hear {
+ 
+  font-size: 3rem;
+}
+
+.cphone {
+
+  color: #DDD;
+
+}
+
+.cemail {
+  color: #DDD;
+}
+.cbutton{
+  margin-top: 28px;
+  margin-left: 80px;
+   width: 120px;
+   height: 32px;
+   background: #16a085;
+   border: none;
+   border-radius: 2px;
+   color: #FFF;
+   font-weight: 500;
+   text-transform: uppercase;
+   transition: 0.1s ease;
+   cursor: pointer;
+}
+
+
+.cright_box1 {
+
+ 
+color: rgb(154, 231, 154);
+font-size: 2.5rem;
+  margin-top: 30%;
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+  .clogin-box{
+    flex-direction: column;
+  }
+  .cleft{
+    width: 50vw;
+  }
+  .cright{
+    width: 50vw;
+  }
+}

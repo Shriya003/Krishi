@@ -1,0 +1,63 @@
+:root{
+    --adminNavBackground: #ffffff;
+
+
+}
+
+.adminNavDiv {
+    width: 100vw;
+   
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: var(--adminNavBackground);
+   
+}
+
+.logo img {
+   
+    width: 7vw;
+    height: 9vh;
+}
+
+.leftSideNav {
+   
+    display: flex;
+   
+    width: 40vw;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dayNight {
+   
+    position: relative;
+    width: 30px;
+    height: 20px;
+
+}
+
+.day , .night{
+    background: none;
+    border-style: none;
+}
+.dayicon, .nighticon {
+    width: 30px;
+    height: 30px;
+}
+
+.notificationIcon {
+
+    width: 30px;
+    height: 30px;
+}
+
+.night {
+    position: absolute;
+    background: none;
+   
+   
+   
+}

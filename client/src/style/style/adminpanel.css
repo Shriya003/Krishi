@@ -1,0 +1,120 @@
+.admin_main {
+  display: flex;
+  background-color: antiquewhite;
+ 
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+ 
+}
+.button_admlogout {
+  width: 25vw;
+  height: 5vh;
+  border: 2px solid brown;
+}
+.msg_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 4px solid rgb(244, 201, 122);
+  width: 50vw;
+}
+.message {
+  background-color: antiquewhite;
+ 
+  height: 30vh;
+}
+.activee {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 40vh;
+ 
+}
+.activee_user {
+  display: flex;
+  background-color: rgb(238, 192, 133);
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  width: 25vw;
+  height: 20vh;
+ 
+}
+.activee_buyer {
+  display: flex;
+  font-size: 2rem;
+  background-color: rgb(238, 192, 133);
+  width: 25vw;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+ 
+}
+.activee_seller {
+  display: flex;
+  font-size: 2rem;
+  width: 25vw;
+  background-color: rgb(238, 192, 133);
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+ 
+}
+.data_insertion {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 60vh;
+}
+.data_heading {
+  display: flex;
+  justify-content: center;
+  font-size: 2.7rem;
+  text-decoration: underline;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.admin_submit {
+  width: 15vw;
+  height: 5vh;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(238, 192, 133);
+}
+.feedback_message {
+  display: flex;
+  justify-content: center;
+  font-size: 2.7rem;
+  text-decoration: underline;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.adminUser {
+  display: flex;
+ 
+  width: 100%;
+  justify-content: space-between;
+}
+.adminUser img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+.adminDelete {
+ 
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.suggestid {
+  width: 0px;
+  height: 0px;
+  opacity: 0;
+}

@@ -1,0 +1,99 @@
+.main_div{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  background-image:url(../images/bg4.jpg);
+   
+    font-size: 16px;
+   
+    color: #222;
+   
+     
+}
+.form_holder_div.open{
+    border: 10px solid rgb(8, 4, 235);
+
+}
+
+.close_form_btn{
+    width: 5rem;
+    height: 2rem;
+    margin-bottom: 30px;
+}
+
+.form_holder{
+  
+    width: 40vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+     margin-top: 2rem; 
+   
+   
+    justify-content: center;
+    align-items: center;
+
+
+    background: rgba(255,255,255,0.1);
+    box-shadow: 0 25px 45px rgba(255,255,255,0.5);
+   
+    border-right: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(25px);
+
+   
+}
+.input_fields{
+   
+    box-shadow: 1px solid red;
+    width: 35vw;
+    display: flex;
+   
+    
+   
+   
+    justify-content: space-between;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+   
+   
+}
+.input_fields label{
+   
+    margin-left: 30px;
+    display: inline-block;
+
+}
+.input_fields input{
+   
+   
+    display: inline-block;
+}
+.close_dialog_box{
+    width: 5rem;
+    height: 3rem
+
+}
+.crop_price{
+   
+    width: 12vw;
+}
+
+.weight_unit{
+    position: absolute;
+    
+    
+}
+.submit_sell{
+    margin-left: 40%; 
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: rgb(12, 12, 12);
+    cursor:pointer;
+    background-color: #E9EFC0; 
+}

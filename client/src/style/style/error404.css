@@ -1,0 +1,108 @@
+ .errorpage{
+   background-image: url('../images/4.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+
+
+
+ }
+ .errormaindiv{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ .errorheading{
+    width: 80vw;
+ }
+ .errorheading h1{
+    font-size: 50px;
+    color: white;
+    letter-spacing: 0.4rem;
+ }
+
+ .errorminidiv{
+    display: flex;
+   justify-content: space-between;
+    width: 80vw;
+
+
+ }
+ .errorminiheading{
+
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ }
+ .errorminiheading h1{
+   font-size: 20px;
+   color: white;
+   margin-top: 20px;
+   letter-spacing: 0.1rem;
+}
+
+
+
+
+ .errorminiheading h2{
+   font-size: 20px;
+   margin-top: 20px;
+   color: white;
+   margin-left: 30px;
+}
+.erroranchor{
+   margin-top: 30px;
+}
+ .errorminiheading a{
+  
+   color: white;
+   margin-bottom: 10px;
+ }
+
+ .error404{
+  
+  
+   position: relative;
+}
+.error404 h1{
+   font-size: 50vh;
+   color: white;
+   line-height: 0.7em;
+  
+
+}
+
+.austro{
+  
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   right: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.austro img{
+  
+   width:20rem;
+   height:20rem;
+   animation-name: small;
+   animation-duration: 8s;
+   animation-timing-function: ease-in;
+
+
+}
+
+@keyframes small{
+   from{
+      width: 20rem;
+      height: 20rem;
+   }
+   to{
+      width: 0rem;
+      height: 0rem;
+   }
+}
+

@@ -1,0 +1,32 @@
+.TipsContainer {
+   
+   
+    width: 255px;
+    max-width: 255px;
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 10px;  
+    border-radius: 15px;
+    padding: 10px;   
+    background-color: #5367ff;
+    
+} 
+
+.TipsContainer h1 {
+    margin-bottom: 10px;
+}
+
+.TipsContainer h2 {
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.TipsContainer h3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+}

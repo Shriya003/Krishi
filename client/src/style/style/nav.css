@@ -1,0 +1,201 @@
+.nmain_dcc {
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  background-image: radial-gradient(circle, #059538, #60ae53, #95c872, #c4e195, #effcbd);
+}
+
+.nheader {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+}
+
+.nfirst {
+
+  width: 10vw;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.nbuy_sell {
+  display: flex;
+  align-items: center;
+  width: 23vw;
+  justify-content: space-between;
+}
+
+
+
+
+.nlogo {
+ 
+ 
+
+}
+
+.nfirst img {
+ 
+
+  width: 17vh;
+  height: 11vh;
+  margin-left: 30px;
+  margin-top: 8px;
+}
+.nbuy_sell button {
+  border-radius: 20px;
+  background-color: rgb(230, 253, 230);
+  width: 6rem;
+  font-size: 1.1rem;
+  height: 2rem;
+  margin-left: 10px;
+
+}
+.nmyprofile {
+  border: 2px solid black;
+  border-radius: 50%;
+ 
+  padding: 1px;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+
+}
+
+.nprofile {
+  width: 50px;
+  height: 50px;
+
+  border-radius: 50%;
+  background-image: url(../images/user.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+
+.nsecond {
+
+  height: 30vh;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.ntext {
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.nsecond_h1 {
+
+  font-size: 3rem;
+  font-family: 'Cormorant SC', serif;
+}
+
+.nsecond_h2 {
+  font-size: 2.2rem;
+  font-family: 'Cormorant SC', serif;
+
+}
+
+
+.nheader_right {
+
+  font-size: 1.6rem;
+  margin-bottom: 5px;
+
+}
+
+.nheader_right li a {
+  padding: 0rem 2rem;
+  margin: 0rem 3rem;
+  font-weight: bold;
+  color: #444a2e;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+
+}
+
+
+.nheader_right li a:hover {
+  color: #777d60;
+}
+
+
+
+
+
+
+
+
+
+.myprofile:hover {}
+
+
+
+
+
+@media screen and (max-width:768px) {
+
+  .nheader {
+
+
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    margin: 0px 0px;
+    height: 10vh;
+  }
+
+  .search_box {
+    display: block;
+
+    margin-right: 0rem;
+    margin-left: -2rem;
+    width: 40%;
+  }
+
+  .search_box input {
+
+    width: 100%;
+    height: 4.5vh;
+    font-size: large;
+    padding-left: 5px;
+    font-weight: 300;
+
+  }
+
+  .header_right li a {
+    display: none;
+
+
+  }
+
+  .menu img {
+    display: block;
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+  }
+
+
+}

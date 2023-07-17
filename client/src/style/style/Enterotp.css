@@ -1,0 +1,71 @@
+
+.main_box{
+    margin: 0;
+      padding: 0;
+      background-image: linear-gradient(to right top, #bce3c1, #a8cdac, #94b898, #81a384, #6e8e71, #6a8e6d, #658e6a, #618e66, #69a271, #70b67c, #76cb88, #7ce094);
+      font-size: 16px;
+      height: 721px;
+      color: #222;
+      font-weight: 300;
+  }  
+    
+    .box {
+     position:fixed;
+      width: 600px;
+      justify-content: center;
+      margin-top: 190px;
+      margin-left: 450px;
+      height: 300px;
+      background:#B4E197;
+      border-radius: 30px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    }
+    .otp_field{
+        display: flex;
+        margin-left: 200px;
+        margin-top: 40px;
+    }
+    .otp_h{
+        font-size: 38px;
+        margin-left: 240px;
+        margin-top: 50px;
+    }
+    .otp_field input{
+        width: 24px;
+        height: 30px;
+        font-size: 25px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 5px;
+        margin: 8px;
+        border: 2px solid #55525c;
+        background: #21232d;
+        font-weight: bold;
+        color: #fff;
+        outline: none;
+        transition: all 0.1s;
+    }
+    .otp_field input:focus{
+        border:2px solid #a527ff;
+        box-shadow: 0 0 2px 2px #a527ff6a;
+    }
+    .validate_btn{
+        width:140px;
+        height: 40px;
+        border: none;
+        margin-top: 5%;
+        font-size: 20px;
+        cursor: pointer;
+        margin-left: 45%;
+        background-color:#98ca77 ;
+    }
+    .validate_otp:hover{
+        background-color: #83c657;
+    }
+
+.otp_field input::-webkit-outer-spin-button,
+.otp_field input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+

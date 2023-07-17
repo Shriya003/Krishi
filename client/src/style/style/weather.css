@@ -1,0 +1,48 @@
+
+.weather{
+
+   
+    height: 25vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+   
+    
+
+  }
+
+.city_name{
+    width: 80%;
+    height: 4vh;
+
+}
+.weather h1{
+    
+
+    font-size: 3rem;
+   
+}
+.weather h3{
+
+    font-size: 1.6rem;
+}
+.weather button{
+    margin-top: 2.5rem;
+    width: 50%;
+    background: transparent;
+}
+.temp_box{
+    display: flex;
+   
+}
+.address_box{
+   
+    display: flex;
+    margin-top: 10px;
+}
+
+.country{
+    padding-left: 5px;
+}

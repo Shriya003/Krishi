@@ -1,0 +1,53 @@
+.error_ext_div{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.error_main_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2rem;
+
+}
+.error_main_div h1{
+    font-size: 20rem;
+    background-image: url('../images/5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.error_main_div h2{
+    margin-top: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+
+
+}
+
+.error_main_div h3{
+    margin-top: 15px;
+    letter-spacing: -0.2px;
+    text-align: center;
+
+}
+.go_home{
+    width: 13vw;
+    height: 5.5vh;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #0245D4;
+    color: aliceblue;
+    font-weight: 550;
+    letter-spacing: 1px;
+    border: transparent;
+
+
+}

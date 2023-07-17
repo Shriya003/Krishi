@@ -1,0 +1,50 @@
+.mainContainer_selldiv{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ucard_div{
+
+    border-radius: 30px ;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+
+
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/23.jpg');
+
+}  
+
+.ownsell_data_holder{
+
+    margin-top: 10px;
+
+    display: flex;
+
+}
+.ingo_btn{
+
+   
+    display: flex;
+    width: 20vw;
+    margin-top: 35px;
+    margin-bottom: 4px;
+
+    justify-content: space-between;
+
+}
+#updatebtn{
+    width: 70px;
+    height: 40px;
+
+}
+
+#deletebtn{
+    width: 70px;
+    height: 40px;
+}

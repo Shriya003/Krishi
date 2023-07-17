@@ -1,0 +1,143 @@
+:root{
+    --backgroundColourr: #EDF2F9;
+    --textColour: #5e6e82;
+    --blockColour:rgb(255, 255, 255);
+    --inputLabel:#344050;
+    
+
+   
+
+
+   
+
+    
+}
+.admin_main {
+    display: flex;
+    background-color: var(--backgroundColourr);
+   
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+   
+
+}
+
+.button_admlogout {
+    width: 25vw;
+    height: 5vh;
+    border: 2px solid brown;
+}
+
+.msg_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 4px solid rgb(244, 201, 122);
+    width: 50vw;
+}
+
+
+
+.message {
+    background-color: var(--backgroundColourr);
+   
+    height: 30vh;
+}
+
+.activee {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 40vh;
+   
+}
+
+.activee_user {
+    display: flex;
+    background-color: var(--blockColour);
+   
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: 20vh;
+   
+}
+
+.activee_buyer {
+    display: flex;
+    font-size: 2rem;
+    background-color: var(--blockColour); 
+   
+    width: 25vw;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+   
+}
+
+.activee_seller {
+    display: flex;
+    font-size: 2rem;
+    width: 25vw;
+    background-color: var(--blockColour);
+   
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+   
+}
+
+.activee_user , .activee_seller , .activee_buyer{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.data_insertion {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 60vh;
+}
+
+.data_heading {
+    display: flex;
+    justify-content: center;
+    font-size: 2.7rem;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.admin_submit {
+    width: 15vw;
+    height: 5vh;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--blockColour);
+}
+
+.feedback_message {
+    display: flex;
+    justify-content: center;
+    font-size: 2.7rem;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.activee_user , .activee_seller ,.activee_buyer, .data_heading, .crop_name ,.admin_submit  , .feedback_message{
+   
+    color: var(--textColour);
+    
+}
+
+.input_fields  label{
+    color: var(--inputLabel)
+}

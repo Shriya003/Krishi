@@ -1,0 +1,324 @@
+
+.main_div_about {
+    background-image: url(../images/38.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100vw;
+}
+
+.main_div_about {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+   
+
+}
+
+.main_container_about {
+   
+   
+    box-shadow: 10px 10px 90px 20px;
+    width: 55%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+   
+   
+   
+    margin-top: -2.0rem;
+   
+
+}
+
+
+
+.name,
+.phone,
+.email,
+.gender,
+.phone_holder,
+.email_holder,
+.usertye_holder {
+
+
+    color: rgb(225, 250, 220);
+   
+   
+   
+    text-align: center;
+
+
+
+}
+
+
+.img_div_about {
+   
+   
+    width: 90%;
+   
+    display: flex;
+   
+    align-items: center;
+   
+
+}
+
+.img_container {
+   
+    display: flex;
+    width: 30%;
+    margin-top: 1.0rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.img_holder {
+   
+
+    width: 50%;
+
+}
+
+.img_container img {
+    border: 1px solid red;
+    border-radius: 100%;
+    width: 7rem;
+    height: 7rem;
+
+}
+
+.img_holder input {
+   
+   
+   
+    margin-top: 1rem;
+    margin-left: 1rem;
+    display: none;
+}
+
+
+.changebtnholder {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+}
+
+.chanagePhoto {
+    display: none;
+}
+
+
+.name_div_info {
+   
+   
+   
+    margin-left: 3rem;
+}
+
+
+
+.name_div_info {
+   
+    font-size: 3rem;
+    display: flex;
+   
+    align-items: center;
+
+}
+
+.info_div {
+   
+    display: flex;
+   
+   
+    width: 95%;
+    height: 60%;
+    margin-right: 3%;
+    margin-top: 20px;
+    padding-top: 30px;
+}
+
+.info_div::after {
+    content: " ";
+    width: 6px;
+    height: 280px;
+    position: absolute;
+   
+    margin-left: 180px;
+    margin-top: -40px;
+    background: #fff478;
+}
+
+
+.aboutInfoDiv {
+   
+    width: 100%;
+}
+
+.default_heading {
+   
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+    font-size: 1.5rem;
+   
+
+}
+
+.value {
+    display: flex;
+   
+    flex-direction: column;
+    font-size: 1.5rem;
+    row-gap: 40px;
+
+}
+
+.logoutDiv {
+    width: 100%;
+   
+}
+
+.logout {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: rgb(19, 79, 19);
+}
+
+
+.logout:hover {
+    background-color: rgb(21, 96, 21);
+}
+
+.cropDataList {
+   
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15%;
+    margin-left: 1%;
+    align-items: center;
+
+}
+
+.aboutInfoDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.your_crop {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: rgb(12, 12, 12);
+    cursor: pointer;
+    background-color: #E9EFC0;
+}
+
+.your_crop:hover {
+    background-color: #d4ed2e
+}
+
+
+@media screen and (max-width:768px) {
+
+    html {
+        font-size: 90%;
+    }
+
+   
+
+    .main_div_about {
+       
+       
+       
+       
+       
+
+    }
+
+    .main_container_about {
+       
+       
+        width: 90vw;
+       
+
+    }
+
+    .info_div:after {
+        display: none;
+    }
+
+    .info_div {
+       
+        margin-top: 3.0rem;
+        height: auto;
+        flex-direction: column-reverse;
+    }
+
+    .img_div_about {
+        flex-direction: column;
+    }
+
+    .default_heading {
+       
+       
+       
+    }
+
+    .cropDataList {
+       
+        margin: 0px;
+    }
+
+
+
+    .name {
+       
+    }
+
+    .img_container {
+        width: 100%;
+       
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img_holder {
+       
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .changebtnholder {
+       
+
+    }
+    .logoutDiv{
+       
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}

@@ -1,0 +1,38 @@
+.messagee{
+  
+   height: 100vh;
+}
+
+.adminUser{
+    display: flex;
+    border: 1px solid red;
+    width: 100%;
+    justify-content: space-between;
+ }
+
+
+
+ .adminUser img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+ }
+
+
+
+
+
+.adminDelete{
+   
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.suggestid{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+ }
